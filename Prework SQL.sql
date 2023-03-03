@@ -1,0 +1,1 @@
+SELECT * FROM productdb.furniture where Item_id = 101
