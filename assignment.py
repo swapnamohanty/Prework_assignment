@@ -25,7 +25,7 @@ def is_leap_year(a_year):
      return False
 print(is_leap_year(2023))
 
-#To check all the numbers in the are consecutive
+#To check all the numbers in the list are consecutive
 def is_consucative(a_list):
     if sorted(a_list) == list(range(min(a_list), max(a_list)+1)):
          return True
